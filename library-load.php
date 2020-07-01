@@ -2,7 +2,7 @@
 $struct = listFolders();
 echo json_encode($struct);
 
-function listFolders($dir = __DIR__ . '/library') {
+function listFolders($dir = __DIR__ . '/YOUR_DIR') {
     $dh = scandir($dir);
     $return = [];
 
